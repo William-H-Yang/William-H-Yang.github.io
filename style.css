@@ -126,8 +126,8 @@ padding: 25px;
   bottom: -40px;
 }
 .tail-logo:hover:after {
-  border-left: 10px solid hsla(58, 100%, 80%, 1);
-  border-top: 20px solid hsla(58, 100%, 80%, 1);
+  border-left-color: hsla(58, 100%, 80%, 1);
+  border-top-color: hsla(58, 100%, 80%, 1);
 }
 .tail-logo:after {
   content: "";
@@ -200,7 +200,7 @@ padding: 25px;
     body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 8fr;
-        gap: 50px;
+        gap: 40px;
         width: calc(100vw - 50px)
     }
     #navbar {  
@@ -233,6 +233,38 @@ padding: 25px;
     }
     .balloon-logo-mobile {
         margin: -10px;
+    }
+    .tail-logo:before {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: 50%;
+        bottom: -30px; 
+    }
+    .tail-logo:after {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: calc(50% + 3px);
+        bottom: -17px; 
+    }
+    .tail-logo-active-page:before {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: 50%;
+        bottom: -30px;        
+    }
+    .tail-logo-active-page:after {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: calc(50% + 3px);
+        bottom: -17px;  
     }
     .content {
         grid-template-columns: 1fr;
@@ -252,7 +284,7 @@ padding: 25px;
     body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 8fr;
-        gap: 50px;
+        gap: 40px;
         width: calc(100vw - 50px)
     }
     #navbar {  
@@ -285,6 +317,38 @@ padding: 25px;
     }
     .balloon-logo-mobile {
         margin: -10px;
+    }
+    .tail-logo:before {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: 50%;
+        bottom: -30px; 
+    }
+    .tail-logo:after {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: calc(50% + 3px);
+        bottom: -17px; 
+    }
+    .tail-logo-active-page:before {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: 50%;
+        bottom: -30px;        
+    }
+    .tail-logo-active-page:after {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: calc(50% + 3px);
+        bottom: -17px;  
     }
     .content {
         grid-template-columns: 1fr;
