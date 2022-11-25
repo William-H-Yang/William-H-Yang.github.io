@@ -29,6 +29,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   height: 50vh;
+    font-size: 2em;
 }
 #navtop {
     height: auto;
@@ -38,7 +39,6 @@ body {
   margin: 10px;
   text-decoration:none;
   color: #000000;
-  font-size: 2em;
   font-weight: 700;
 }
 .nav:hover {
@@ -55,7 +55,6 @@ body {
   margin: 10px;
   text-decoration:none;
   color: #000000;
-  font-size: 2em;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-thickness: 3px;
@@ -215,8 +214,9 @@ padding: 25px;
         flex-direction: row;
     }
     #navbottom {
-        display: inline-block;
+        display: flex;
         height: auto;
+        font-size: 1.5em;
     }
     #logo {
         width: 200px;
@@ -250,8 +250,9 @@ padding: 25px;
         flex-direction: row;
     }
     #navbottom {
-        display: inline-block;
+        display: flex;
         height: auto;
+        font-size: 1.5em;
     }
     #logo {
         width: 200px;
