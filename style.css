@@ -209,6 +209,7 @@ padding: 25px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr;
         gap: 50px;
+        width: calc(100vw - 50px)
     }
     #navbar {  
         flex-direction: row;
@@ -233,7 +234,7 @@ padding: 25px;
         font-size: 1em;
     }
     #home-portrait {
-        height: 41vw;
+        height: 100%;
     }
     .content {
         grid-template-rows: 1fr 1fr;
@@ -245,6 +246,7 @@ padding: 25px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr;
         gap: 50px;
+        width: calc(100vw - 50px)
     }
     #navbar {  
         flex-direction: row;
@@ -269,7 +271,7 @@ padding: 25px;
         font-size: 1em;
     }
     #home-portrait {
-        height: 41vw;
+        height: 100%;
     }
     .content {
         grid-template-rows: 1fr 1fr;
