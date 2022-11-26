@@ -199,7 +199,7 @@ body {
         padding: 1px;
     }
     .speech-balloon {
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     #logo {
         width: 100px;
@@ -294,7 +294,7 @@ body {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 550px) and (orientation: portrait) {
     body {
         grid-template-columns: 1fr;
         grid-template-rows: 60px 1fr;
