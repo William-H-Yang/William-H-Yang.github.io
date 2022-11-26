@@ -26,7 +26,7 @@ body {
 }
 #navbottom {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   height: 50vh;
     font-size: 2em;
@@ -179,6 +179,54 @@ body {
     object-fit: cover;
     border: 3px solid black;
 }
+@media (max-aspect-ratio: 3/2) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-aspect-ratio: 10/9) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-height: 600px) and (orientation: landscape) {
+    #navbottom {
+        height: 100%;
+        font-size: 5vh;
+        justify-content:space-evenly;
+    }
+    .nav {
+        padding: 1px;
+    }
+    .speech-balloon {
+        font-size: 3vh;
+    }
+    #logo {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+    }
+    .balloon-logo-mobile {
+        margin: 10px;
+        padding: 12.5px;
+    }
+    .tail-logo:before {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: 50%;
+        bottom: -30px; 
+    }
+    .tail-logo:after {
+        border-left-width: 7px;
+        border-right-width: 7px;
+        border-top-width: 14px;
+        border-bottom-width: 14px;
+        left: calc(50% + 3px);
+        bottom: -17px; 
+    }
+}
 @media (orientation: portrait) {
     body {
         grid-template-columns: 1fr;
@@ -233,22 +281,6 @@ body {
         border-bottom-width: 14px;
         left: calc(50% + 3px);
         bottom: -17px; 
-    }
-    .tail-logo-active-page:before {
-        border-left-width: 7px;
-        border-right-width: 7px;
-        border-top-width: 14px;
-        border-bottom-width: 14px;
-        left: 50%;
-        bottom: -30px;        
-    }
-    .tail-logo-active-page:after {
-        border-left-width: 7px;
-        border-right-width: 7px;
-        border-top-width: 14px;
-        border-bottom-width: 14px;
-        left: calc(50% + 3px);
-        bottom: -17px;  
     }
     .content {
         grid-template-columns: 1fr;
@@ -316,22 +348,6 @@ body {
         border-bottom-width: 10px;
         left: calc(50% + 3px);
         bottom: -8px; 
-    }
-    .tail-logo-active-page:before {
-        border-left-width: 5.25px;
-        border-right-width: 5.25px;
-        border-top-width: 10.5px;
-        border-bottom-width: 10.5px;
-        left: 50%;
-        bottom: -21px;        
-    }
-    .tail-logo-active-page:after {
-        border-left-width: 5.25px;
-        border-right-width: 5.25px;
-        border-top-width: 10.5px;
-        border-bottom-width: 10.5px;
-        left: calc(50% + 3px);
-        bottom: -8px;  
     }
     .content {
         grid-template-columns: 1fr;
