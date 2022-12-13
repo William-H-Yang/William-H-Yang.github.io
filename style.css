@@ -316,6 +316,11 @@ body {
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
+    .reader {
+    display: grid;
+}
+.reader-item {
+    height: auto;
 }
 
 @media (max-width: 700px) and (orientation: portrait) {
