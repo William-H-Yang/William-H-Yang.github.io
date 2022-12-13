@@ -181,6 +181,17 @@ body {
   grid-template-rows: auto 1fr;
   gap: 50px;
 }
+.reader {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.reader-item {
+    height: calc(100vh - 50px);
+}
+.direction-reverse {
+    flex-direction: row-reverse;
+}
 #logo {
   width: 200px;
   height: auto;
