@@ -11,7 +11,7 @@
 body {
   display:grid;
   gap: 25px;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   margin: 25px 25px 0px 25px;
   height: calc(100vh - 50px);
 }
@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  height: 50vh;
+  height: 40vh;
     font-size: 2em;
 }
 #navtop {
