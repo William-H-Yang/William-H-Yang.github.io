@@ -258,8 +258,6 @@ body {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    border: 0x solid #000000;
-    gap:25px;
 }
 .reader-item {
     height: calc(100vh - 50px);
