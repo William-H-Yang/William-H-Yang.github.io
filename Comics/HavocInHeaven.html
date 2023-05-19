@@ -6,11 +6,15 @@
     <title>Havoc in Heaven</title>
     <style>
         * {
-            float: left;
-            margin: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
             padding: 0;
             box-sizing: border-box;
             scrollbar-width: none;
+            font-size: 0px;
         }
         .webtoon{
             position: relative;;
@@ -20,8 +24,13 @@
             position: fixed;
             bottom: 10px;
             right: 10px;
-            width:50px;
+            width:100px;
             mix-blend-mode: exclusion;
+        }
+        @media (orientation: landscape) {
+            .webtoon{
+                width: 40vw;
+            }
         }
     </style>
   </head>
